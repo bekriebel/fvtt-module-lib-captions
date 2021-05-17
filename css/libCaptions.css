@@ -1,0 +1,30 @@
+/* ---------------------------------------- */
+/* Captions                            */
+/* ---------------------------------------- */
+#captions {
+    position: fixed;
+    /* width: 60%; */
+    bottom: 70px;
+    left: 225px;
+    width: calc(100% - 550px);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 90;
+    pointer-events: none;
+  }
+  .caption {
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.5em;
+    padding: 6px 8px;
+    line-height: 20px;
+    border: 1px solid #23221d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    color: #f0f0e0;
+  }
+  .caption::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 8px;
+  }

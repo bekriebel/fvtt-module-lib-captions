@@ -1,7 +1,8 @@
 {
-  "name": "template",
-  "title": "FVTT Module Template",
-  "description": "Description",
+  "name": "lib-captions",
+  "title": "libCaptions",
+  "description": "Library module for providing captioning support to FoundryVTT",
+  "author": "bekit",
   "authors": [
     {
       "name": "bekit",
@@ -11,18 +12,21 @@
       "ko-fi": "https://ko-fi.com/bekit"
     }
   ],
-  "version": "0.0.0",
+  "version": "0.0.1",
   "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "0.8.0",
-  "scripts": [
-    "scripts/template.js"
+  "compatibleCoreVersion": "0.8.4",
+  "esmodules": [
+    "src/libCaptions.js"
   ],
-  "url": "https://github.com/bekriebel/fvtt-module-template",
-  "manifest": "https://github.com/bekriebel/fvtt-module-template/releases/latest/download/module.json",
-  "download": "https://github.com/bekriebel/fvtt-module-template/releases/latest/download/fvtt-module-template.zip",
-  "readme": "https://github.com/bekriebel/fvtt-module-template/blob/main/README.md",
-  "changelog": "https://github.com/bekriebel/fvtt-module-template/blob/main/CHANGELOG.md",
-  "bugs": "https://github.com/bekriebel/fvtt-module-template/issues",
+  "styles": [
+    "css/libCaptions.css"
+  ],
+  "url": "https://github.com/bekriebel/fvtt-module-lib-captions",
+  "manifest": "https://github.com/bekriebel/fvtt-module-lib-captions/releases/latest/download/module.json",
+  "download": "https://github.com/bekriebel/fvtt-module-lib-captions/releases/latest/download/fvtt-module-lib-captions.zip",
+  "readme": "https://github.com/bekriebel/fvtt-module-lib-captions/blob/main/README.md",
+  "changelog": "https://github.com/bekriebel/fvtt-module-lib-captions/blob/main/CHANGELOG.md",
+  "bugs": "https://github.com/bekriebel/fvtt-module-lib-captions/issues",
   "languages": [
     {
       "lang": "en",

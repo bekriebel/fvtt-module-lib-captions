@@ -1,4 +1,6 @@
 {
-    "TEMPLATE.debug": "Enable debug logging",
-    "TEMPLATE.debugHint": "Enables debug and info logging levels"
+    "LIBCAPTIONS.debug": "Enable debug logging",
+    "LIBCAPTIONS.debugHint": "Enables debug and info logging levels",
+    "LIBCAPTIONS.timeout": "Caption display time",
+    "LIBCAPTIONS.timeoutHint": "Length of time to display each caption, in seconds" 
 }
