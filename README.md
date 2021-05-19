@@ -9,11 +9,12 @@ This is a library module meant to be used as a dependency for other modules that
 
 In your `module.json` file, add:
 ```json
-"dependencies": [
-{
-  "name": "libCaptions",
-  "manifest": "https://github.com/bekriebel/fvtt-module-lib-captions/releases/latest/download/module.json",
-},
+  "dependencies": [
+    {
+      "name": "libCaptions",
+      "manifest": "https://github.com/bekriebel/fvtt-module-lib-captions/releases/latest/download/module.json"
+    }
+  ]
 ```
 
 Once added, captions can be displayed by using the method `ui.captions.caption`:
