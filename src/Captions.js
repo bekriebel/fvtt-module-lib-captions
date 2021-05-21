@@ -1,7 +1,5 @@
+import { MODULE_NAME } from "./Constants.js";
 import * as log from "./Logging.js";
-
-const MODULE_NAME = "lib-captions";
-const LANG_NAME = "LIBCAPTIONS";
 
 /**
  * A common framework for displaying captions to the client.
@@ -49,7 +47,6 @@ export default class Captions extends Application {
   }
 
   /* -------------------------------------------- */
-
 
   /**
    * Display or update a caption notification
@@ -116,26 +113,3 @@ export default class Captions extends Application {
     }
   }
 }
-
-Hooks.once("init", () => {
-  game.settings.register(MODULE_NAME, "timeout", {
-    name: `${LANG_NAME}.timeout`,
-    hint: `${LANG_NAME}.timeoutHint`,
-    scope: "client",
-    config: true,
-    type: Number,
-    range: {
-      min: 1,
-      max: 30,
-      step: 1,
-    },
-    default: 5,
-    onChange: () => {},
-  });
-});
-
-Hooks.on("renderCameraViews", (cameraViews, html) => {
-  if (ui.captions) {
-    ui.captions.moveAboveCameraViews(html);
-  }
-});

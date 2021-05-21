@@ -1,6 +1,4 @@
-const MODULE_NAME = "lib-captions";
-const LANG_NAME = "LIBCAPTIONS";
-const LOG_PREFIX = "libCaptions |";
+import { LANG_NAME, LOG_PREFIX, MODULE_NAME } from "./Constants.js";
 
 /* -------------------------------------------- */
 /*  Logging Methods                             */
@@ -21,7 +19,6 @@ export let debug = console.debug.bind(console, LOG_PREFIX);
  */
 // eslint-disable-next-line import/no-mutable-exports
 export let info = console.info.bind(console, LOG_PREFIX);
-
 
 /**
  * Display warning messages on the console
@@ -49,6 +46,8 @@ function setDebug(value) {
     debug = () => {};
     info = () => {};
   }
+
+  Hooks.callAll(`${MODULE_NAME}DebugSet`, value);
 }
 
 Hooks.once("init", () => {
@@ -59,9 +58,8 @@ Hooks.once("init", () => {
     config: true,
     default: false,
     type: Boolean,
-    onChange: (value) => ui.captions.setDebug(value),
+    onChange: (value) => setDebug(value),
   });
 
   setDebug(game.settings.get(MODULE_NAME, "debug"));
-  ui.captions.setDebug = setDebug;
 });
