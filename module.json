@@ -1,20 +1,23 @@
 {
   "name": "lib-captions",
   "title": "libCaptions",
-  "description": "Library module for providing captioning support to FoundryVTT",
+  "description": "Library module for providing live captioning display support to FoundryVTT",
   "author": "bekit",
   "authors": [
     {
       "name": "bekit",
       "email": "fvtt-module-help@bekit.net",
       "url": "https://bekit.net",
-      "patreon": "https://www.patreon.com/bekit",
-      "ko-fi": "https://ko-fi.com/bekit"
+      "discord": "bekit#4213",
+      "patreon": "bekit",
+      "ko-fi": "bekit",
+      "twitter": "@bekit"
     }
   ],
   "version": "0.1.0",
   "minimumCoreVersion": "0.7.0",
   "compatibleCoreVersion": "0.8.4",
+  "manifestPlusVersion": "1.1.0",
   "esmodules": [
     "src/libCaptions.js"
   ],
@@ -32,6 +35,20 @@
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
+    }
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/bekriebel/fvtt-module-lib-captions/main/example-images/cover.png"
+    },
+    {
+      "type": "icon",
+      "url": "https://raw.githubusercontent.com/bekriebel/fvtt-module-lib-captions/main/example-images/icon.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "https://raw.githubusercontent.com/bekriebel/fvtt-module-lib-captions/main/example-images/example-jitsi_captions.webp"
     }
   ]
 }
