@@ -16,7 +16,7 @@
   ],
   "version": "0.1.0",
   "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "0.8.4",
+  "compatibleCoreVersion": "0.8.5",
   "manifestPlusVersion": "1.1.0",
   "esmodules": [
     "src/libCaptions.js"
