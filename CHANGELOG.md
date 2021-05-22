@@ -1,3 +1,9 @@
+# v0.1.1 - A little (or big) feature set
+* Manifest updates for manifest+, including some media images
+* Update compatible FVTT version to v0.8.5
+* Darken background of captions
+* Add the ability to adjust the font size of captions
+
 # v0.1.0 - Ready for launch
 * README updates
 * Split the code into more distinct module files
