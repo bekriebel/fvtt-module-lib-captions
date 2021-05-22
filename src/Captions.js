@@ -58,6 +58,8 @@ export default class Captions extends Application {
     log.debug("Displaying caption for user", user.name, ":", text);
 
     const timeoutLength = game.settings.get(MODULE_NAME, "timeout") * 1000;
+    const fontSize = `${game.settings.get(MODULE_NAME, "fontSize")}px`;
+    const lineHeight = `${game.settings.get(MODULE_NAME, "fontSize") + 6}px`;
 
     // Define the function to remove the notification
     const _remove = (caption) => {
@@ -71,6 +73,8 @@ export default class Captions extends Application {
       // Construct new caption
       const cls = "caption";
       const li = $(`<li class="${cls}">${user.name}: ${text}</li>`);
+      li.css("font-size", fontSize);
+      li.css("line-height", lineHeight);
 
       // Place the new caption
       this.element.append(li);

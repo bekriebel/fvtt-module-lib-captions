@@ -19,6 +19,20 @@ Hooks.once("init", () => {
     default: 5,
     onChange: () => {},
   });
+  game.settings.register(MODULE_NAME, "fontSize", {
+    name: `${LANG_NAME}.fontSize`,
+    hint: `${LANG_NAME}.fontSizeHint`,
+    scope: "client",
+    config: true,
+    type: Number,
+    range: {
+      min: 14,
+      max: 60,
+      step: 1,
+    },
+    default: 14,
+    onChange: () => {},
+  });
 });
 
 Hooks.once("ready", () => {
