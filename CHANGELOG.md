@@ -1,3 +1,7 @@
+# v0.1.2 - Make some moves
+* Minor refactor for more consistency
+* Update compatible FVTT version to v0.8.6
+
 # v0.1.1 - A little (or big) feature set
 * Manifest updates for manifest+, including some media images
 * Update compatible FVTT version to v0.8.5
