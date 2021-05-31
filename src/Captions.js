@@ -1,5 +1,5 @@
-import { MODULE_NAME } from "./Constants.js";
-import * as log from "./Logging.js";
+import { MODULE_NAME } from "./utils/constants.js";
+import * as log from "./utils/logging.js";
 
 /**
  * A common framework for displaying captions to the client.
