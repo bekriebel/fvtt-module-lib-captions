@@ -1,3 +1,7 @@
+# v0.1.3 - Translate & update
+* Add Spanish translation thanks to José E. Lozano
+* Update compatible FVTT version to v0.8.8
+
 # v0.1.2 - Make some moves
 * Minor refactor for more consistency
 * Update compatible FVTT version to v0.8.6
