@@ -98,7 +98,10 @@ export default class Captions extends Application {
 
       // Reset the timeout
       window.clearTimeout(caption.timeout);
-      caption.timeout = window.setTimeout(() => _remove(caption), timeoutLength);
+      caption.timeout = window.setTimeout(
+        () => _remove(caption),
+        timeoutLength
+      );
     }
   }
 
@@ -110,7 +113,8 @@ export default class Captions extends Application {
 
     if (cameraViewsElement.hasClass("camera-position-bottom")) {
       log.debug("Moving above camera views");
-      const bottomPosition = window.innerHeight - cameraViewsElement.offset().top;
+      const bottomPosition =
+        window.innerHeight - cameraViewsElement.offset().top;
       this.element.css("bottom", bottomPosition);
     } else {
       this.element.css("bottom", "");

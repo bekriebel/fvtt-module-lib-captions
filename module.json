@@ -17,13 +17,9 @@
   "version": "0.1.3",
   "minimumCoreVersion": "0.7.0",
   "compatibleCoreVersion": "0.8.8",
-  "manifestPlusVersion": "1.1.0",
-  "esmodules": [
-    "src/libCaptions.js"
-  ],
-  "styles": [
-    "css/libCaptions.css"
-  ],
+  "manifestPlusVersion": "1.2.0",
+  "esmodules": ["src/libCaptions.js"],
+  "styles": ["css/libCaptions.css"],
   "url": "https://github.com/bekriebel/fvtt-module-lib-captions",
   "manifest": "https://github.com/bekriebel/fvtt-module-lib-captions/releases/latest/download/module.json",
   "download": "https://github.com/bekriebel/fvtt-module-lib-captions/releases/latest/download/fvtt-module-lib-captions.zip",
@@ -36,7 +32,7 @@
       "name": "English",
       "path": "lang/en.json"
     },
-	{
+    {
       "lang": "es",
       "name": "Español",
       "path": "lang/es.json"
