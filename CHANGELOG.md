@@ -1,3 +1,8 @@
+# v0.1.4 - Support the new
+
+- Update compatible FVTT version to v9.231
+- Fix possible movement error when combined with WebRTC Tweaks
+
 # v0.1.3 - Translate & update
 
 - Add Spanish translation thanks to José E. Lozano

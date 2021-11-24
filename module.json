@@ -14,9 +14,9 @@
       "twitter": "@bekit"
     }
   ],
-  "version": "0.1.3",
+  "version": "0.1.4",
   "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "9.231",
   "manifestPlusVersion": "1.2.0",
   "esmodules": ["src/libCaptions.js"],
   "styles": ["css/libCaptions.css"],
