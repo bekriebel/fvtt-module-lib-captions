@@ -1,3 +1,8 @@
+# v0.1.5 - Support the newer
+
+- Add Japanese localization thanks to BrotherSharper!
+- Update compatible FVTT version to v10
+
 # v0.1.4 - Support the new
 
 - Update compatible FVTT version to v9.231
